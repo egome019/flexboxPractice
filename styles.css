@@ -5,3 +5,25 @@
 body{
     margin: 0;
 }
+
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+button{
+    height: 50%;
+    width: 10vw;
+    border: none;
+}
+
+nav{
+    display: inherit;
+    flex-direction: inherit;
+    flex-wrap: inherit;
+    align-items: center;
+    gap: 100px;
+    width: max-content;
+}
