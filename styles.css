@@ -4,6 +4,7 @@
 
 body{
     margin: 0;
+    background-color: #230070;
 }
 
 .header{
@@ -11,12 +12,15 @@ body{
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
+    color: #7adac4;
 }
 
 button{
     height: 50%;
     width: 10vw;
     border: none;
+    background-color: #7adac4;
+    color: #230070;
 }
 
 nav{
@@ -52,11 +56,24 @@ img{
     max-width: 600px;
     height: 500px;
     object-fit: cover;
-    border-radius: 10px;
+    
 }
 
 .card p, .card h1{
     align-self: center;
     font-size: 20px;
     padding: 0 50px;
+}
+
+footer{
+    text-align: center;
+    font-size: x-large;
+}
+
+p, section h1{
+    color: #230070;
+}
+
+footer h1{
+    color: #7adac4;
 }
